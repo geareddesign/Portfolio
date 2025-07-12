@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="flex flex-col items-center space-y-6">
         {/* Profile Image */}
         <img
-          src="/portfolio img.jpg"
+          src="/portfolio-img.jpg"
           alt="Profile"
           className="w-28 h-28 rounded-full border-4 border-white shadow-md"
         />
