@@ -45,7 +45,7 @@ export default function Navbar() {
       {/* Bottom Section: Buttons */}
       <div className="flex flex-col items-center space-y-3">
         <a
-          href="https://github.com/Mattperkinsee/portfolio/blob/master/pdf/MatthewPerkins_Resume.pdf"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -53,7 +53,7 @@ export default function Navbar() {
             Resume
           </button>
         </a>
-        <a href="mailto:mattperkinsee@gmail.com">
+        <a href="mailto:bakerd355@gmail.com">
           <button className="bg-white text-blue-800 font-bold px-4 py-2 rounded hover:bg-gray-100 w-32">
             Email
           </button>
