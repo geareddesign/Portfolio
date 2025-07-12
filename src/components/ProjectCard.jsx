@@ -2,9 +2,9 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="border border-gray-300 rounded-xl p-6 shadow hover:shadow-lg transition duration-300 bg-white">
+    <div className="border border-gray-300 dark:bg-gray-900 rounded-xl p-6 shadow hover:shadow-lg transition duration-300 bg-white">
       <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-      <p className="text-gray-600 mb-4">{project.description}</p>
+      <p className="text-gray-600 mb-4 dark:text-white" >{project.description}</p>
       <div className="flex gap-4 mb-4">
         {project.demo && (
           <a

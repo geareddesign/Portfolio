@@ -16,7 +16,7 @@ const projects = [
   
   {
     title: "Task Manager Pro",
-    description: "Simple To Due List",
+    description: "Simple To Do List",
     demo: "https://geareddesign.github.io/TaskManagerPro/",
     github: "https://github.com/geareddesign/TaskManagerPro",
     icons: [FaHtml5, FaCss3Alt, FaJs, FaReact],

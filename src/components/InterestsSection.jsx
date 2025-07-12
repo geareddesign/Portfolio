@@ -3,7 +3,7 @@ import Section from "./Section";
 export default function InterestsSection() {
   return (
     <Section id="interests" title="Interests">
-      <div className="space-y-6 text-gray-700">
+      <div className="space-y-6 text-gray-700 dark:text-white">
         <p>
           When I'm not writing code, you'll usually find me either gaming or
           building one. I love diving into game design and development as a

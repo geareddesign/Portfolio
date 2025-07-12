@@ -26,8 +26,8 @@ export default function EducationSection() {
             <h3 className="text-xl font-semibold">{edu.school}</h3>
             <p className="text-blue-600 font-medium">{edu.degree}</p>
             <p className="text-blue-600 font-medium text-sm">{edu.cert}</p>
-            <p className="text-sm text-gray-500">{edu.date}</p>
-            {edu.gpa && <p className="text-sm text-gray-600 mt-1">{edu.gpa}</p>}
+            <p className="text-sm text-gray-500 dark:text-white">{edu.date}</p>
+            {edu.gpa && <p className="text-sm text-gray-600 mt-1 dark:text-white">{edu.gpa}</p>}
           </div>
         ))}
       </div>

@@ -45,8 +45,8 @@ export default function ExperienceSection() {
           <div key={i}>
             <h3 className="text-xl font-semibold">{exp.role}</h3>
             <p className="text-blue-600 font-medium">{exp.company}</p>
-            <p className="text-sm text-gray-500 mb-2">{exp.date}</p>
-            <ul className="list-disc list-inside text-gray-700">
+            <p className="text-sm text-gray-500 mb-2 dark:text-white">{exp.date}</p>
+            <ul className="list-disc list-inside text-gray-700 dark:text-white">
               {exp.description.map((line, idx) => (
                 <li key={idx}>{line}</li>
               ))}
