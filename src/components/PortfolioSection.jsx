@@ -21,6 +21,13 @@ const projects = [
     github: "https://github.com/geareddesign/TaskManagerPro",
     icons: [FaHtml5, FaCss3Alt, FaJs, FaReact],
   },
+  {
+    title: "Weather Tracker Pro",
+    description: "Uses openweathermap.org api to integrate a webapp with weather data",
+    demo: "https://geareddesign.github.io/WeatherTrackerPro/",
+    github: "https://github.com/geareddesign/WeatherTrackerPro",
+    icons: [FaHtml5, FaCss3Alt, FaJs, FaReact],
+  },
   
 ];
 
