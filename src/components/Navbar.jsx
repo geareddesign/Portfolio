@@ -45,7 +45,7 @@ export default function Navbar() {
       {/* Bottom Section: Buttons */}
       <div className="flex flex-col items-center space-y-3">
         <a
-          href=""
+          href="https://github.com/geareddesign/Resume/blob/main/Resume%202025.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
